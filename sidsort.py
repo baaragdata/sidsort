@@ -19,12 +19,13 @@
 ###**************************
 ###  v0.2b Added Colin Clements file types
 ###  v0.3b Few tweeks to filename handling
+###  v1.1  Added .zip file handling
 '''
 import os, datetime, time
 import argparse
 import shutil
 
-version = '0.3b'
+version = '1.1'
 name = 'JCook'  # hardcoded for this script but could be passed as a paramitter
 
 # setup the commandline argument handler
