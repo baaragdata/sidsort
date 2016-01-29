@@ -3,7 +3,7 @@
 ###  SID Data sort
 ###      by
 ###  Rupert Powell
-###    Jan 2016
+###   (c)Jan 2016
 ###
 ###**************************
 ###  Install python 3.x from here: https://www.python.org/downloads/
@@ -43,6 +43,13 @@ args = parser.parse_args()
 def initialize():
     StartTime = time.time()
     print('Sidsort version {} started {}'.format(version, datetime.datetime.now().time()))
+    print('''
+    sidsort.py  Copyright (C) 2016  Rupert Powell
+    This program comes with ABSOLUTELY NO WARRANTY.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions - see https://github.com/baaragdata/sidsort for
+    details.
+    ''')
     
     # make sure the input directory exists
     if os.path.isdir(args.indir) is True:
