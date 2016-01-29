@@ -124,6 +124,31 @@ def CopyFile():
                     print('{0}/{1} - File already exists!'.format( NewDir, NewFileName))
                 
                 pass
+            elif suffix == 'zip':
+                print('ZIP file found...looking inside for .SPD files')
+                #NewFileName = '{}_VLF_CClements.spd'.format(file[:-4])
+                ##print(NewFileName)
+                #year = file[2:4]
+                #month = file[4:6]
+                #date = file[6:8]
+                ## make the new directory path based on the file information
+                #longyear = '20{}'.format(year)
+                #NewDir = '{0}/{1}/{2}{3}/{2}{3}{4}'.format(args.outdir, longyear, year, month, date)
+                ## check the directory exists and if it does not then create it
+                #if not os.path.exists(NewDir):
+                    #os.makedirs(NewDir)    
+                              
+                ## copy the file to the new directory so long as it does not already exist
+                #if not os.path.isfile('{}/{}'.format(NewDir, NewFileName)):
+                    #numfiles += 1
+                    ## copy and rename the file to the new location
+                    #shutil.copy(os.path.join(subdir, file), '{}/{}'.format(NewDir, NewFileName))
+                    #print('{} >> {} copied to {}'.format(file, NewFileName, NewDir))
+                #else:
+                    #print('{0}/{1} - File already exists!'.format( NewDir, NewFileName))
+                
+                pass
+        
             else:
                 # not a .dat or .spd file!
                 print('{} skipped'.format(file))
