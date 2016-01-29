@@ -135,6 +135,7 @@ def CopyFile():
             elif suffix == 'zip':
                 print('ZIP file found...looking inside for .SPD files')
                 # Minour change made
+                # Made another minor change
                 #NewFileName = '{}_VLF_CClements.spd'.format(file[:-4])
                 ##print(NewFileName)
                 #year = file[2:4]
