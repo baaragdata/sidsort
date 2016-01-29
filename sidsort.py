@@ -20,6 +20,7 @@
 ###  v0.2b Added Colin Clements file types
 ###  v0.3b Few tweeks to filename handling
 ###  v1.1  Added .zip file handling
+###  v1.1.1 Added licenceing statement
 '''
 import os, datetime, time
 import argparse
